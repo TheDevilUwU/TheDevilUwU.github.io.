@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    border: 1px solid red;
+    padding: 15px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  .col-1 {width: 55%;}
+  .col-2 {width: 50%;}
+  .col-3 {width: 50%;}
+  .col-4 {width: 50%;}
+  .col-5 {width: 50%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 50%;}
+  .col-8 {width: 50%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+h1{
+    font-size:  25px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+  }
+
+  html{color:rgb(10, 240, 10)}
+  
+
+.col-1{
+    margin: 0px 22.5%;
+}
